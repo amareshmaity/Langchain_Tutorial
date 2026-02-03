@@ -1,16 +1,32 @@
 ## Set up
-```bash
-1. create a new folder  
-2. open it in vs code  
-3. create a new venv  
-   python -m venv venv  
-4. activate venv  
-   venv\Scripts\Activate  
-5. create the requirements.txt  
-6. install packages from requirements.txt  
-   pip install -r requirements.txt  
-7. verify LangChain installation
-```
+
+1. Create a new folder  
+2. Open it in vs code  
+3. Create a new venv
+    ```bash  
+    python -m venv venv  
+    ```
+4. Activate venv  
+    ```bash  
+    venv\Scripts\Activate   
+    ```
+5. Create the `requirements.txt`  
+6. install packages from `requirements.txt` 
+    ```bash  
+    pip install -r requirements.txt  
+    ```   
+7. Verify LangChain installation
+    * Create test.py
+    * Add below code
+    ```python
+    import langchain
+    print(langchain.__version__)
+    ```
+    * run
+    ```bash
+    python test.py
+    ```
+
 
 ## Required Modules
 ```bash
